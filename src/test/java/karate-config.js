@@ -6,7 +6,7 @@ function fn() {
       }
       if (env == 'flightAware') {
       var config = {
-         baseUrl: 'https://aeroapi.flightaware.com/aeroapi/flights/search'
+         baseUrl: 'https://gorest.co.in/public/v2/users'
          urlNun: 'https://aeroapi.flightaware.com/aeroapi/depatures'
        };
 

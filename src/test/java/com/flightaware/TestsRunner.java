@@ -16,7 +16,7 @@ public class TestsRunner {
     @Test
     public void testRun(){
         Results results = Runner.path("classpath:")
-                .tags("@SearchFlght")
+                .tags("")
                 .outputCucumberJson(true)
                 .outputJunitXml(true)
                 .karateEnv("")
